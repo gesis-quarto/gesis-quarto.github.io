@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-80dbd4c40f25cf3b72685e9f84897c3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5d14b21d3cab9a9ae098faa49f6250c0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -146,7 +146,15 @@ background-size: cover;
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#more-sections" id="toc-more-sections" class="nav-link" data-scroll-target="#more-sections">More sections</a></li>
+  <li><a href="#more-sections" id="toc-more-sections" class="nav-link" data-scroll-target="#more-sections">More sections</a>
+  <ul class="collapse">
+  <li><a href="#subsection" id="toc-subsection" class="nav-link" data-scroll-target="#subsection">subsection</a></li>
+  </ul></li>
+  <li><a href="#some-more-features" id="toc-some-more-features" class="nav-link" data-scroll-target="#some-more-features">Some more features</a>
+  <ul class="collapse">
+  <li><a href="#tabset" id="toc-tabset" class="nav-link" data-scroll-target="#tabset">Tabset</a></li>
+  <li><a href="#callouts" id="toc-callouts" class="nav-link" data-scroll-target="#callouts">Callouts</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -164,8 +172,106 @@ background-size: cover;
 </section>
 <section id="more-sections" class="level2">
 <h2 data-anchor-id="more-sections">More sections</h2>
+<section id="subsection" class="level3">
+<h3 data-anchor-id="subsection">subsection</h3>
+</section>
+</section>
+<section id="some-more-features" class="level2">
+<h2 data-anchor-id="some-more-features">Some more features</h2>
+<section id="tabset" class="level3">
+<h3 data-anchor-id="tabset">Tabset</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Page 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Page 2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ul>
+<li>testing</li>
+<li>list</li>
+<li>items</li>
+</ul>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="callouts" class="level3">
+<h3 data-anchor-id="callouts">Callouts</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Callout note</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Callout warning</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Callout important</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Callout tip</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Callout caution</p>
+</div>
+</div>
+<div class="gesis-card-orange">
+<div class="card-header">
+<p>A GESIS card</p>
+</div>
+<p>exists in orange,rust,turquoise, and berry. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -580,6 +686,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><strong>Standort Mannheim</strong><br>
+GESIS - Leibniz-Institut für Sozialwissenschaften<br>
+B6, 4-5<br>
+68159 Mannheim<br>
+Telefon: +49-(0)621-1246-0<br>
+Fax: +49-(0)621-1246-100</p>
+</div>   
+    <div class="nav-footer-center">
+<p><strong>Standort Köln</strong><br>
+GESIS - Leibniz-Institut für Sozialwissenschaften<br>
+Unter Sachsenhausen 6-8<br>
+50667 Köln<br>
+Telefon: +49-(0)221-47694-0<br>
+Fax: +49-(0)221-47694-199</p>
+</div>
+    <div class="nav-footer-right">
+<p><img src="logos/leibniz_logo_en_white.svg" class="img-fluid" alt="GESIS ist ein Institut der Leibniz-Gemeinschaft"><br>
+Impressum Datenschutz</p>
+</div>
+  </div>
+</footer>
 
 
 

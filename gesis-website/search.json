@@ -25,6 +25,13 @@
     "href": "index.html#more-sections",
     "title": "Microsite",
     "section": "More sections",
-    "text": "More sections"
+    "text": "More sections\n\nsubsection"
+  },
+  {
+    "objectID": "index.html#some-more-features",
+    "href": "index.html#some-more-features",
+    "title": "Microsite",
+    "section": "Some more features",
+    "text": "Some more features\n\nTabset\n\nPage 1Page 2\n\n\n\ntesting\nlist\nitems\n\n\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n\nCallouts\n\n\n\n\n\n\nNote\n\n\n\nCallout note\n\n\n\n\n\n\n\n\nWarning\n\n\n\nCallout warning\n\n\n\n\n\n\n\n\nImportant\n\n\n\nCallout important\n\n\n\n\n\n\n\n\nTip\n\n\n\nCallout tip\n\n\n\n\n\n\n\n\nCaution\n\n\n\nCallout caution\n\n\n\n\nA GESIS card\n\nexists in orange,rust,turquoise, and berry. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
   }
 ]
